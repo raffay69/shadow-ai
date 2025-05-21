@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-accent text-gray-100 font-sans;
+  overflow-x: hidden; 
+}
+
+@keyframes glitch-text {
+  0% { text-shadow: 1px 1px 0px #dc2626, -1px -1px 0px #3b82f6; transform: translate(0, 0); opacity: 1;}
+  25% { text-shadow: -1px 1px 0px #dc2626, 1px -1px 0px #3b82f6; transform: translate(-1px, 1px); opacity: 0.8;}
+  50% { text-shadow: 1px -1px 0px #dc2626, -1px 1px 0px #3b82f6; transform: translate(1px, -1px); opacity: 1;}
+  75% { text-shadow: -1px -1px 0px #dc2626, 1px 1px 0px #3b82f6; transform: translate(1px, 1px); opacity: 0.8;}
+  100% { text-shadow: 1px 1px 0px #dc2626, -1px -1px 0px #3b82f6; transform: translate(-1px, -1px); opacity: 1;}
+}
+
+
+.glitch-hover:hover {
+  animation: glitch-text 0.15s infinite linear alternate-reverse;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+

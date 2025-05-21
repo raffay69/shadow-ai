@@ -70,7 +70,7 @@ function Workflow() {
       icon: Flag, 
       title: "Problem Solving", 
       description: "Press Cmd/Ctrl + P to solve the screenshots problems and get the solutionsa along with thoughts,time and space complexity and a dry run.", 
-      videoSrc: 'https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@main/public/p-solve.mov' ,
+      videoSrc: 'https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@912c573/public/p-solve.mov' ,
       style:"object-contain"
       
     },

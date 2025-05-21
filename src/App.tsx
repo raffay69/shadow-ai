@@ -121,7 +121,7 @@ function Features() {
       rowSpan: 'row-span-1',
       colSpan: 'md:col-span-2',
       type : "video",
-      Src: 'https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@main/public/invisible.mov',
+      Src: 'https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@912c573/public/invisible.mov',
       style : "object-contain"
     },
     {
@@ -148,7 +148,7 @@ function Features() {
       description: "Tackle complex LeetCode-style problems with real-time, intelligent code assistance.",
       rowSpan: 'row-span-1',
       colSpan: 'md:col-span-2',
-      Src: 'https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@main/public/p-solve.mov',
+      Src: 'https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@912c573/public/p-solve.mov',
       type: "video"
     },
   ];

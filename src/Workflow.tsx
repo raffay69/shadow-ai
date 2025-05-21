@@ -28,19 +28,19 @@ function Workflow() {
       icon: LogIn, 
       title: "User Login", 
       description: "Launch the application to access the login page and authenticate yourself.", 
-      videoSrc: 'login.mov' 
+      videoSrc: 'https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@main/public/login.mov' 
     },
     { 
       icon: KeyRound, 
       title: "Payment Access", 
       description: "If not paid, a payment page will appear to initiate the transaction.", 
-      videoSrc: 'notpaid.mov' 
+      videoSrc: 'https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@main/public/notpaid.mov' 
     },
     { 
       icon: Bot, 
       title: "Payment Completion", 
       description: "Click the payment button and complete the process to unlock the full app.", 
-      videoSrc: 'payment.mov' 
+      videoSrc: 'https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@main/public/payment.mov' 
     },
     { 
       icon: LanguagesIcon, 
@@ -57,20 +57,20 @@ function Workflow() {
           </a>
         </>
       ), 
-      videoSrc: 'init.mov' 
+      videoSrc: 'https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@main/public/init.mov' 
     },
     { 
       icon: Camera, 
       title: "Screenshot Capture", 
       description: "Press Cmd/Ctrl + H to capture screenshots of the content you want to analyze . You can take upto 3 screenshots.", 
-      videoSrc: 'screenshot-p.mov' ,
+      videoSrc: 'https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@main/public/screenshot-p.mov' ,
       style : 'object-contain'
     },
     { 
       icon: Flag, 
       title: "Problem Solving", 
       description: "Press Cmd/Ctrl + P to solve the screenshots problems and get the solutionsa along with thoughts,time and space complexity and a dry run.", 
-      videoSrc: 'p-solve.mov' ,
+      videoSrc: 'https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@main/public/p-solve.mov' ,
       style:"object-contain"
       
     },
@@ -78,13 +78,13 @@ function Workflow() {
       icon: ListChecks, 
       title: "MCQ Solving", 
       description: "Press Cmd/Ctrl + M to extract and solve multiple-choice questions from screenshots.It may be a bit slow, but that's to ensure the answers are accurate and well-verified.", 
-      videoSrc: 'solve-m.mov' 
+      videoSrc: 'https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@main/public/solve-m.mov' 
     },
     { 
       icon: RefreshCw, 
       title: "Workflow Reset", 
       description: "Press Cmd/Ctrl + R to reset the entire session and start a new flow.", 
-      videoSrc: 'reset.mov' 
+      videoSrc: 'https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@main/public/reset.mov' 
     }
   ];
 
@@ -155,6 +155,7 @@ function Workflow() {
                 >
                   <div className="relative rounded-2xl overflow-hidden shadow-2xl w-full border-2 border-primary/30 hover:border-primary/60 transition-all duration-300">
                     <video
+                      preload='metadata'
                       autoPlay
                       loop
                       muted

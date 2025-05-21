@@ -78,14 +78,14 @@ const orangeGlow: Variants = {
 // Sample data with different tags and .avif logo paths
 const platformData: PlatformItem[] = [
   {
-    logoSrc: 'zoom.avif', // Update with your actual path
+    logoSrc: 'https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@main/public/zoom.avif', // Update with your actual path
     name: 'Zoom',
     description: `
     <div style="color: yellow ; margin: 10px 0;">
     To ensure everything runs smoothly, please use Zoom version 6.16 or earlier, or enable Advanced Capture with window filtering in your Zoom settings.
     </div>
     <div style="margin-top: 10px;">
-    <img src="zoom_setting.png" alt="Zoom Settings Guide" style="max-width: 100%; border-radius: 4px;">
+    <img src="https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@main/public/zoom_setting.png" alt="Zoom Settings Guide" style="max-width: 100%; border-radius: 4px;">
     </div>`,
     tag: {
       type: 'Conditional',
@@ -93,7 +93,7 @@ const platformData: PlatformItem[] = [
     }
   },
   {
-    logoSrc: 'google_meet.avif',
+    logoSrc: 'https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@main/public/google_meet.avif',
     name: 'Google Meet',
     description: `We've thoroughly tested Shadow on this platform and can confidently confirm that it remains completely undetectable during usage, screen sharing, and recordings.
    <div style="color: white; margin: 10px 0;">
@@ -112,7 +112,7 @@ If it is visible during the screen share, it means Shadow is not compatible with
     }
   },
   {
-    logoSrc: 'mercer.avif',
+    logoSrc: 'https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@main/public/mercer.avif',
     name: 'Mettl',
     description: `We've thoroughly tested Shadow on this platform and can confidently confirm that it remains completely undetectable during usage, screen sharing, and recordings.
    <div style="color: white; margin: 10px 0;">
@@ -131,7 +131,7 @@ If it is visible during the screen share, it means Shadow is not compatible with
     }
   },
   {
-    logoSrc: 'autoproctor.avif',
+    logoSrc: 'https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@main/public/autoproctor.avif',
     name: 'Autoproctor',
     description: `We've thoroughly tested Shadow on this platform and can confidently confirm that it remains completely undetectable during usage, screen sharing, and recordings.
    <div style="color: white; margin: 10px 0;">
@@ -150,7 +150,7 @@ If it is visible during the screen share, it means Shadow is not compatible with
     }
   },
   {
-    logoSrc: 'coderpad.avif',
+    logoSrc: 'https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@main/public/coderpad.avif',
     name: 'Coderpad', 
     description: `We've thoroughly tested Shadow on this platform and can confidently confirm that it remains completely undetectable during usage, screen sharing, and recordings.
     <div style="color: white; margin: 10px 0;">
@@ -169,7 +169,7 @@ If it is visible during the screen share, it means Shadow is not compatible with
     }
   },
   {
-    logoSrc: 'codesignal.avif', 
+    logoSrc: 'https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@main/public/codesignal.avif', 
     name: 'codesignal', 
     description: `We've thoroughly tested Shadow on this platform and can confidently confirm that it remains completely undetectable during usage, screen sharing, and recordings.
     <div style="color: white; margin: 10px 0;">
@@ -187,7 +187,7 @@ If it is visible during the screen share, it means Shadow is not compatible with
     }
   },
   {
-    logoSrc: 'hackerrank.avif', 
+    logoSrc: 'https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@main/public/hackerrank.avif', 
     name: 'hackerrank', 
     description: `We've thoroughly tested Shadow on this platform and can confidently confirm that it remains completely undetectable during usage, screen sharing, and recordings.
     <div style="color: white; margin: 10px 0;">
@@ -205,7 +205,7 @@ If it is visible during the screen share, it means Shadow is not compatible with
     }
   },
   {
-    logoSrc: 'team.avif', 
+    logoSrc: 'https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@main/public/team.avif', 
     name: 'microsoft teams', 
     description: `We've thoroughly tested Shadow on this platform and can confidently confirm that it remains completely undetectable during usage, screen sharing, and recordings.
     <div style="color: white; margin: 10px 0;">

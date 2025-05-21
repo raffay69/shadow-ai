@@ -121,7 +121,7 @@ function Features() {
       rowSpan: 'row-span-1',
       colSpan: 'md:col-span-2',
       type : "video",
-      Src: 'invisible.mov',
+      Src: 'https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@main/public/invisible.mov',
       style : "object-contain"
     },
     {
@@ -130,7 +130,7 @@ function Features() {
       description: "Accurately solve multiple-choice questions on any platform",
       rowSpan: 'row-span-1',
       colSpan: 'md:col-span-1',
-      Src: 'mcq.png',
+      Src: 'https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@main/public/mcq.png',
       style : "object-contain",
     },
     {
@@ -139,7 +139,7 @@ function Features() {
       description: "Provides thoughts you can say out loud to sound sharp, plus dry-run examples so you look like you know your shit — even when you're winging it",
       rowSpan: 'row-span-1',
       colSpan: 'md:col-span-1',
-      Src: 'dryrun.png',
+      Src: 'https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@main/public/dryrun.png',
       style: "object-contain",
     },
     {
@@ -148,7 +148,7 @@ function Features() {
       description: "Tackle complex LeetCode-style problems with real-time, intelligent code assistance.",
       rowSpan: 'row-span-1',
       colSpan: 'md:col-span-2',
-      Src: 'p-solve.mov',
+      Src: 'https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@main/public/p-solve.mov',
       type: "video"
     },
   ];
@@ -176,6 +176,7 @@ function Features() {
             >
               {feature.type==="video"?
               <motion.video
+                preload='metadata'
                 src={feature.Src}
                 className={`absolute inset-0 w-full h-full ${feature.style?`${feature.style}`:"object-cover"}`}
                 initial={{ scale: 1.1, opacity: 0.5}}

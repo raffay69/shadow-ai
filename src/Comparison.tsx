@@ -46,6 +46,7 @@ function Comparison() {
           >
             <h3 className="text-xl font-semibold mb-4 text-gray-100 font-cyber">User View [SHADOW Active]</h3>
             <motion.video
+              preload='metadata'
               autoPlay
               loop
               muted
@@ -55,7 +56,7 @@ function Comparison() {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5 }}
             >
-              <source src="userpov.mov" type="video/mp4" />
+              <source src="https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@main/public/userpov.mov" type="video/mp4" />
             </motion.video>
             <p className="mt-4 text-gray-400 font-sans text-sm">Critical data overlaid discreetly.</p>
           </motion.div>
@@ -67,6 +68,7 @@ function Comparison() {
           >
             <h3 className="text-xl font-semibold mb-4 text-gray-100 font-cyber">Observer View [Screen Share]</h3>
             <motion.video
+              preload='metadata'
               autoPlay
               loop
               muted
@@ -76,7 +78,7 @@ function Comparison() {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5 }}
             >
-              <source src="observerpov.mp4" type="video/mp4" />
+              <source src="https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@main/public/observerpov.mp4" type="video/mp4" />
             </motion.video>
             <p className="mt-4 text-gray-400 font-sans text-sm">Observer sees a standard, unmodified screen.</p>
           </motion.div>

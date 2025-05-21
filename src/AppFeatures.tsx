@@ -21,10 +21,10 @@ const staggerContainer = {
 
 function AppFeatures() {
   const features = [
-    { icon: Move, title: "Fluid Positioning", description: "Drag and place the SHADOW interface anywhere on your screen for optimal viewing.", src: 'movement.mp4' },
-    { icon: EyeOff, title: "Instant Stealth", description: "Toggle visibility instantly with a hotkey. Disappears completely from view and recordings.", src: 'toggle.mov' },
-    { icon: MousePointerClick, title: "Click-Through Mode", description: "Enable click-through to interact with underlying applications without interference.", src: 'click-through.mov' },
-    { icon: CircleHelp, title: "Debug Mode", description: "Enables iterative troubleshooting by allowing screenshot capture and analysis after applying a solution. If errors or unexpected behavior occur, the system can review visual output, identify issues, and refine the solution accordingly.", src: 'debug.mov' }
+    { icon: Move, title: "Fluid Positioning", description: "Drag and place the SHADOW interface anywhere on your screen for optimal viewing.", src: 'https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@main/public/movement.mp4' },
+    { icon: EyeOff, title: "Instant Stealth", description: "Toggle visibility instantly with a hotkey. Disappears completely from view and recordings.", src: 'https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@main/public/toggle.mov' },
+    { icon: MousePointerClick, title: "Click-Through Mode", description: "Enable click-through to interact with underlying applications without interference.", src: 'https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@main/public/click-through.mov' },
+    { icon: CircleHelp, title: "Debug Mode", description: "Enables iterative troubleshooting by allowing screenshot capture and analysis after applying a solution. If errors or unexpected behavior occur, the system can review visual output, identify issues, and refine the solution accordingly.", src: 'https://cdn.jsdelivr.net/gh/raffay69/shadow-ai@main/public/debug.mov' }
 
   ];
 

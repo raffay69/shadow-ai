@@ -34,7 +34,7 @@ function Payment() {
 
 
   const handlePayment = ()=>{
-    window.location.href = 'https://pages.razorpay.com/shadow_activation';
+    window.location.href = 'https://pages.razorpay.com/shadow-activation';
   }
 
   return (

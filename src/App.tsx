@@ -301,7 +301,7 @@ function Download() {
                         Windows (comming soon......)
                     </motion.button>
                     <motion.a 
-                      href="https://github.com/raffay69/shadow-server/releases/download/mac/Shadow-0.0.0-arm64.dmg" 
+                      href="https://github.com/raffay69/shadow-ai/releases/download/shadow-mac/Shadow-0.0.0-arm64.dmg" 
                       download="Shadow_MAC"
                       variants={fadeIn}
                       whileHover={{ scale: 1.05, boxShadow: '0 0 15px rgba(220, 38, 38, 0.7)' }}

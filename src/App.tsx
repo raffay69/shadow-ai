@@ -291,17 +291,8 @@ function Download() {
                 <motion.h2 variants={fadeIn} className="text-4xl font-bold mb-6 text-primary font-cyber uppercase tracking-widest">System Interface</motion.h2>
                 <motion.p variants={fadeIn} className="text-xl text-gray-300 mb-8 font-sans">Download the SHADOW client and activate your advantage.</motion.p>
                 <motion.div variants={staggerContainer} className="flex flex-col md:flex-row justify-center items-center gap-6">
-                    <motion.button 
-                      variants={fadeIn}
-                      whileHover={{ scale: 1.05, boxShadow: '0 0 15px rgba(220, 38, 38, 0.7)' }}
-                      whileTap={{ scale: 0.95 }}
-                      className="flex items-center justify-center gap-2 bg-primary hover:bg-red-700 text-gray-900 font-bold py-4 px-10 rounded-sm text-xl transition-colors duration-300 shadow-lg shadow-primary/50 w-full md:w-auto font-cyber"
-                    >
-                        <MonitorPlay size={24} />
-                        Windows (comming soon......)
-                    </motion.button>
                     <motion.a 
-                      href="https://github.com/raffay69/shadow-ai/releases/download/shadow-mac/Shadow-0.0.0-arm64.dmg" 
+                      href="https://www.dropbox.com/scl/fi/46n018wq6x8wse2ol9lrx/shadow-mac.zip?rlkey=t1o39d1q76jpo30m4u9xcmmb0&st=90ra80e1&dl=1" 
                       download="Shadow_MAC"
                       variants={fadeIn}
                       whileHover={{ scale: 1.05, boxShadow: '0 0 15px rgba(220, 38, 38, 0.7)' }}
@@ -312,7 +303,7 @@ function Download() {
                         macOS
                     </motion.a>
                 </motion.div>
-                <motion.p variants={fadeIn} className="text-sm text-gray-500 mt-6 font-sans">Compatibility: Win 10/11 & macOS 11+</motion.p>
+                <motion.p variants={fadeIn} className="text-sm text-gray-500 mt-6 font-sans">Compatibility: macOS 11+</motion.p>
             </div>
         </motion.section>
     );

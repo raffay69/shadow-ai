@@ -52,7 +52,7 @@ const faqData: FAQItem[] = [
   },
   {
     question: 'What operating systems are supported?',
-    answer: 'Currently, SHADOW clients are available for Windows (10 and 11) and macOS (11 Big Sur and later). We are continuously working on expanding compatibility.'
+    answer: 'Currently, SHADOW client is available for macOS (11 Big Sur and later). We are continuously working on expanding compatibility.'
   },
 ];
 
